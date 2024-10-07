@@ -117,6 +117,7 @@ class Cell:
         Cell.images.append(b)
         Cell.images.append(c)
 
+    
     @staticmethod #non class-specific method
     def randomize_mines():
         cells_add_mines = random.sample(
